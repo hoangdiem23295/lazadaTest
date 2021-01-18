@@ -1,0 +1,42 @@
+// css for price-comp
+.price-comp {
+  .price {
+    font-size: 18px;
+  }
+  .currency {
+    font-size: 12px;
+  }
+  &.active {
+    line-height: 22px;
+    color: $red1;
+  }
+  &.disabled {
+    line-height: 14px;
+    text-decoration: line-through;
+    color: $textColor1;
+
+    .price {
+      font-size: 12px;
+    }
+  }
+}
+
+// css for starList
+.starList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    font-size: 10px;
+    color: $yellow1;
+    margin: 0 2px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
