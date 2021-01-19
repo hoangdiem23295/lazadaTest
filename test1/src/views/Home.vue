@@ -23,6 +23,7 @@ export default {
 <style lang="scss">
   .home-page {
     background-color: $homePageBackground;
+    padding-bottom: 24px;
 
     &__banner {
       height: 120px;

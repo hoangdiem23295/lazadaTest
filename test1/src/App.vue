@@ -1,8 +1,10 @@
 <template>
   <v-app id="app">
     <Header />
-    <router-view/>
-    <Footer />
+    <div class="app-content">
+      <router-view/>
+      <Footer />
+    </div>
   </v-app>
 </template>
 <script>
@@ -30,7 +32,7 @@ export default {
     margin: 0;
     transition: 0.3s;
   }
-  .home-page {
+  .app-content {
     position: absolute;
     top: 87px;
     width: 100%;

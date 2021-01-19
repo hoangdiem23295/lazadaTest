@@ -28,7 +28,6 @@
     <div class="header-main">
       <div class="header-main__wrapper wrapper">
         <div class="header-main__logo">
-          <img :src="logo" alt="logo">
         </div>
         <div class="header-main__search">
           <v-text-field
@@ -43,7 +42,7 @@
         </div>
         <v-btn class="header-main__cart noBorder"><span class="fa fa-shopping-cart"></span></v-btn>
         <div class="header-main__extra">
-          <img :src="headerImage1"/>
+          <img src="../assets/image/header1.png" alt="logo">
         </div>
       </div>
     </div>
@@ -60,8 +59,6 @@ export default {
   },
   data() {
     return {
-      logo: require('../assets/image/logo.png'),
-      headerImage1: require('../assets/image/header1.png'),
       search: ''
     }
   },
